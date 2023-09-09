@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x109aADca67d48dB4f4827307eC5663C79fD7231b",
+  "SCAN_LINK": "https://scan.coredao.org/address/0x109aadca67d48db4f4827307ec5663c79fd7231b#transactions",
+  "NETWORK": {
+    "NAME": "CORE",
+    "SYMBOL": "core",
+    "ID": 1116
+  },
+  "NFT_NAME": "Betcoin",
+  "SYMBOL": "BET",
+  "MAX_SUPPLY": 992,
+  "WEI_COST": 500000000000000000,
+  "DISPLAY_COST": 0.5,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "SHOW_BACKGROUND": true
+}
