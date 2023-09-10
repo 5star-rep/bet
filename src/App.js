@@ -99,7 +99,7 @@ function App() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Click PLAY`);
+  const [feedback, setFeedback] = useState(`Pick a No`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -296,7 +296,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  bet 0.5 core to win 5 core
+                  0.5 core to win 5 core
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
