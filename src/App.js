@@ -240,7 +240,7 @@ function App() {
                       >
                         Lucky No
                       </s.TextDescription>
-                      <s.SpacerSmall />
+                      <s.SpacerMedium />
             <s.TextDescription
               style={{
                 textAlign: "center",
