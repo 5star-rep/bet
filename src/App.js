@@ -97,7 +97,7 @@ export const StyledLink = styled.a`
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
-  const data = useSelector((state) => state.data);
+  const data = useSelector((state) => state.0);
   const [claimingNft, setClaimingNft] = useState(false);
   const [feedback, setFeedback] = useState(`Click PLAY`);
   const [mintAmount, setMintAmount] = useState(1);
@@ -127,7 +127,7 @@ function App() {
     let totalGasLimit = String(gasLimit);
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
-    setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
+    setFeedback(`🎰`);
     setClaimingNft(true);
     blockchain.smartContract.methods
       .PLAYCORE(blockchain.account, mintAmount)
@@ -291,7 +291,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  bet 0.5 core to win 5 core
+                  bet 0.5 core to win 5
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
                 <s.SpacerXSmall />
