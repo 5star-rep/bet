@@ -97,7 +97,7 @@ export const StyledLink = styled.a`
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
-  const data = useSelector((state) => state(0);
+  const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
   const [feedback, setFeedback] = useState(`Click PLAY`);
   const [mintAmount, setMintAmount] = useState(1);
@@ -232,6 +232,15 @@ function App() {
             >
               {data._luckyNO}
             </s.TextTitle>
+              <s.SpacerSmall />
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+            Lucky No
+          </s.TextDescription>
             <s.TextDescription
               style={{
                 textAlign: "center",
