@@ -355,7 +355,7 @@ function App() {
                           decrementMintAmount();
                         }}
                       >
-                        <
+                        -
                       </StyledRoundButton>
                       <s.SpacerMedium />
                       <s.TextDescription
@@ -374,7 +374,7 @@ function App() {
                           incrementMintAmount();
                         }}
                       >
-                        >
+                        +
                       </StyledRoundButton>
                     </s.Container>
                     <s.SpacerSmall />
