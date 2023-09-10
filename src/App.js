@@ -296,8 +296,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  bet 0.5 core to win 5
-                  {CONFIG.NETWORK.SYMBOL}.
+                  bet 0.5 core to win 5 core
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
