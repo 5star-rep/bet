@@ -232,15 +232,15 @@ function App() {
             >
               {data._luckyNO}
             </s.TextTitle>
-              <s.SpacerSmall />
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
-            }}
-          >
-            Lucky No
-          </s.TextDescription>
+              <s.TextDescription
+                        style={{
+                          textAlign: "center",
+                          color: "var(--accent-text)",
+                        }}
+                      >
+                        Lucky No
+                      </s.TextDescription>
+                      <s.SpacerSmall />
             <s.TextDescription
               style={{
                 textAlign: "center",
